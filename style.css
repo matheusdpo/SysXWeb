@@ -11,7 +11,7 @@ img {
 form {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 25px;
 }
 
@@ -60,13 +60,48 @@ button {
 }
 
 a {
-    margin-left: 1100px;
-    margin-top: 25x;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
     font-size: 15px;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
 }
 
 a:hover {
     color: #05d6dd;
     text-decoration: none;
+}
+
+#rainbow {
+    text-align: right;
+    font-family: 'Dokdo', cursive;
+    font-size: 32px;
+    animation: colorRotate 6s linear 0s infinite;
+}
+
+#rainbow:hover{
+    animation: colorRotate 0.5s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+    from {
+        color: #6666ff;
+    }
+
+    10% {
+        color: #0099ff;
+    }
+
+    50% {
+        color: #00ff00;
+    }
+
+    75% {
+        color: #ff3399;
+    }
+
+    100% {
+        color: #6666ff;
+    }
 }
