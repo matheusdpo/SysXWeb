@@ -2,8 +2,8 @@ body {
     background-color: #180d3d;
 }
 
-.background{
-    background-color: #1100ff2d;
+.background {
+    background-color: #1100ff1f;
     display: block;
     margin: 0px auto 25px auto;
     padding-bottom: 10px;
@@ -50,6 +50,7 @@ button {
 }
 
 button:hover {
+    background-color: #f57c1e;
 }
 
 p,
@@ -88,7 +89,7 @@ a:hover {
     animation: colorRotate 6s linear 0s infinite;
 }
 
-#rainbow:hover{
+#rainbow:hover {
     animation: colorRotate 0.5s linear 0s infinite;
 }
 
@@ -108,7 +109,7 @@ a:hover {
     75% {
         color: #ff3399;
     }
-    
+
     100% {
         color: #6666ff;
     }
